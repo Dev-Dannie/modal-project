@@ -1,0 +1,86 @@
+*,::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    height: 100vh;
+    position: relative;
+}
+
+.project{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5rem;
+    background: wheat;
+    text-align: center;
+    border: solid 1px red;
+    color: rgb(9, 37, 61);
+    padding-top: 50px;
+}
+.project h1{
+    margin-bottom: 5%;
+}
+
+.open-btn{
+    margin-top: 30%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    background: black;
+    color: white;
+    border: solid 1px red;
+    z-index: 2;
+}
+
+p{
+    font-size: 16px;
+    color: red;
+}
+
+.open-btn:hover{
+    background: transparent;
+    color: black;
+    transition: .4s;
+}
+
+#modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5rem;
+    text-align: center;
+    background: wheat;
+    border: solid 1px red;
+    color: rgb(9, 37, 61);
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.close-btn{
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#modal-container{
+   display: none;
+}
+
+
