@@ -11,6 +11,7 @@ body{
     position: relative;
 }
 
+/* window page pop up */
 .project{
     position: absolute;
     top: 50%;
@@ -30,6 +31,7 @@ body{
     margin-bottom: 5%;
 }
 
+/* call modal button */
 .open-btn{
     margin-top: 30%;
     padding: 10px 20px;
@@ -53,6 +55,7 @@ p{
     transition: .4s;
 }
 
+/* modal pop up */
 #modal{
     position: absolute;
     top: 50%;
